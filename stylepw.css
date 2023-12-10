@@ -1,0 +1,106 @@
+h1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    
+    .password {
+        background: #ff6940cc;
+        border-radius: 99999px;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+        transition: 1s;
+    }
+    
+    .password:focus {
+        background: #ff152a99;
+        border-radius: 99999px;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+        transition: 1s;
+    }
+    
+    .submitpas {
+        background: #ff152a99;
+        border-radius: 99999px;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+        transition: 1s;
+    }
+    
+    .submitpas:focus {
+        background: #ff6940cc;
+        border-radius: 99999px;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+        transition: 1s;
+    }
+    
+    .buttonlanjut {
+        background: #66ff559c;
+        border-radius: 99999px;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+        transition: 1s;
+    }
+    
+    
+    
+    
+}
+
+@media (max-width: 768px) {
+    
+    .password {
+        background: #ff6940cc;
+        border-radius: 99999px;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+        transition: 1s;
+    }
+    
+    .password:focus {
+        background: #ff152a99;
+        border-radius: 99999px;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+        transition: 1s;
+    }
+    
+    .submitpas {
+        background: #ff152a99;
+        border-radius: 99999px;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+        transition: 1s;
+    }
+    
+    .submitpas:focus {
+        background: #ff6940cc;
+        border-radius: 99999px;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+        transition: 1s;
+    }
+    
+    .buttonlanjut {
+        background: #66ff559c;
+        border-radius: 99999px;
+        border: 2px solid #fff;
+        padding: 5px 10px;
+        color: #fff;
+        transition: 1s;
+    }
+    
+    
+}

@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Kanit&family=Nova+Square&family=Pacifico&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: #2e2e2e;
+    color: #fff;
+}
+
+
+@media (min-width: 808px) {
+    
+    .headermobile {
+        display: none;
+    }
+    
+    .headerdesktop {
+        position: sticky;
+        border: 2px solid #ff153f;
+        border-radius: 999999px;
+        top: 0;
+        font-family: 'Afacad', sans-serif;
+        height: 28px;
+        margin: 5px;
+        padding: 1% 0% 0% 2%;
+        margin-bottom: 15px;
+        user-select: none;
+    }
+    
+    .menuname {
+        cursor: cell;
+    }
+    
+    .menuname > h1 {
+        font-family: 'Nova Square', sans-serif;
+        font-size: 15px;
+        float: left;
+        transition: 1s;
+    }
+    
+    .menuname > h1:hover {
+        font-family: 'Nova Square', sans-serif;
+        font-size: 15px;
+        float: left;
+        transform: scale(0.9);
+        transition: 1s;
+    }
+    
+    .menubutton1 {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .menubutton1 > button {
+        position: relative;
+        background: transparent;
+        border: none;
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        transition: 1s;
+    }
+    
+    .menubutton1 > button:hover {
+        position: relative;
+        transform: scale(0.9);
+        background: transparent;
+        border: none;
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        transition: 1s;
+    }
+    
+    .menubutton2 {
+        float: right;
+    }
+    
+    .menubutton2 > button {
+        position: relative;
+        background: transparent;
+        border: none;
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        margin: 0px 10px 0px 10px;
+        transition: 1s;
+    }
+    
+    .pesansambutan {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .pesansambutanvp {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: left;
+        margin-left: 15px;
+        font-size: 15px;
+        width: 500px;
+    }
+    
+    .pesansambutanimage {
+        width: 550px;
+        float: right;
+        margin-bottom: 100px;
+    }
+    
+    .pesansambutanbutton {
+        background: #ff2b35;
+        border: 2px solid #ff1515;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 55px;
+        margin-top: 50px;
+        border-radius: 15px;
+        transition: 1s;
+        user-select: none;
+    }
+    
+    .pesansambutanbutton:hover {
+        background: #ff2b35;
+        border: 2px solid #ff1515;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 55px;
+        margin-top: 50px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px #d64736;
+        transition: 1s;
+        user-select: none;
+    }
+    
+    .section1 {
+        background: url("https://smpislam-ahi.sch.id/wp-content/uploads/2022/04/IMG-20220412-WA0009.jpg");
+        background-position: center;
+        height: 700px;
+        margin-top: 300px;
+        border-top: 2px solid #fff;
+    }
+    
+    .section1 > .boxabout1 {
+        display: inline-block;
+        background: #ff152aae;
+        width: 25%;
+        height: 250px;
+        margin: 25px;
+        margin-top: 150px;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid #ff1515;
+        float: right;
+    }
+    
+    .section1 > .boxabout1 > h1 {
+        color: #fff;
+        font-size: 15px;
+        font-family: 'Nova Square', sans-serif;
+    }
+    
+    .section1 > .boxabout1 > p {
+        margin-top: 15px;
+        color: #fff;
+        font-size: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    .section1 > .boxabout2 {
+        display: inline-block;
+        background: #ff152aae;
+        width: 25%;
+        height: 250px;
+        margin: 25px;
+        margin-top: 150px;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid #ff1515;
+        float: left;
+    }
+    
+    .section1 > .boxabout2 > h1 {
+        color: #fff;
+        font-size: 15px;
+        font-family: 'Nova Square', sans-serif;
+    }
+    
+    .section1 > .boxabout2 > p {
+        margin-top: 15px;
+        color: #fff;
+        font-size: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+@media (max-width: 808px) {
+    
+    .headerdesktop {
+        display: none;
+    }
+    
+    .headermobile {
+        position: sticky;
+        background: #e71326;
+        font-family: 'Afacad', sans-serif;
+        height: 28px;
+        padding: 10px;
+        margin-bottom: 15px;
+        user-select: none;
+    }
+    
+    .headermobile > h1 {
+        font-size: 20px;
+        float: left;
+    }
+    
+    .headermobile > button {
+        float: right;
+        background: transparent;
+        color: #fff;
+        border: none;
+        font-size: 20px;
+    }
+    
+    .headermobile > button:hover + .sidebarmenu {
+        float: right;
+        background: transparent;
+        color: #fff;
+        border: none;
+        background: #ffffff51;
+        border: 2px solid #ff808a;
+        left: 180px;
+        opacity: 1;
+    }
+    
+    .sidebarmenu {
+        position: fixed;
+        width: 200px;
+        height: 455px;
+        left: 500px;
+        float: right;
+        margin-top: 60px;
+        background: #ffffff51;
+        border: 2px solid #ff808a;
+        border-radius: 10px;
+        padding: 15px;
+        opacity: 0;
+        transition: 1s;
+    }
+    
+    .sidebarmenu:hover {
+        position: fixed;
+        width: 200px;
+        height: 455px;
+        left: 180px;
+        float: right;
+        margin-top: 60px;
+        background: #ffffff51;
+        border: 2px solid #ff808a;
+        border-radius: 10px;
+        padding: 15px;
+        opacity: 1;
+        transition: 1s;
+    }
+    
+    .sidebarmenu > h1 {
+        font-size: 30px;
+        display: block;
+        margin-right: 5%;
+        font-family: 'Pacifico', cursive;
+    }
+    
+    .sidebarmenu > .buttonmenusidebar {
+        margin: 10px;
+        margin-top: 100px;
+    }
+    
+    .sidebarmenu > .buttonmenusidebar > button {
+        display: block;
+        position: relative;
+        background: transparent;
+        font-size: 20px;
+        border: none;
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        margin-top: 30px;
+        padding: 5px 15px;
+        transition: 1s;
+    }
+    
+    .sidebarmenu > .buttonmenusidebar > button:hover {
+        display: block;
+        position: relative;
+        background: #ffffff6e;
+        border-radius: 10px;
+        font-size: 20px;
+        border: none;
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        margin-top: 30px;
+        padding: 5px 25px;
+        transition: 1s;
+    }
+    
+    .pesansambutan {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: left;
+        margin-left: 15px;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    
+    .pesansambutanvp {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: left;
+        margin-left: 15px;
+        font-size: 5px;
+        width: 225px;
+    }
+    
+    .pesansambutanimage {
+        width: 250px;
+        float: right;
+        margin-bottom: 100px;
+    }
+    
+    .pesansambutanbutton {
+        background: #ff2b35;
+        border: 2px solid #ff1515;
+        color: #fff;
+        font-size: 10px;
+        padding: 5px 25px;
+        margin-top: 50px;
+        border-radius: 15px;
+        transition: 1s;
+        user-select: none;        
+    }
+    
+    .pesansambutanbutton:hover {
+        background: #ff2b35;
+        border: 2px solid #ff1515;
+        color: #fff;
+        font-size: 10px;
+        padding: 5px 25px;
+        margin-top: 50px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px #d64736;
+        transition: 1s;
+        user-select: none;
+    }
+    
+    .section1 {
+        background: url("https://smpislam-ahi.sch.id/wp-content/uploads/2022/04/IMG-20220412-WA0009.jpg");
+        background-position: center;
+        height: 700px;
+        margin-top: 50px;
+        border-top: 2px solid #fff;
+    }
+    
+    .section1 > .boxabout1 {
+        display: inline-block;
+        background: #ff152aae;
+        width: 40%;
+        height: 250px;
+        margin: 5px;
+        margin-top: 150px;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid #ff1515;
+        float: left;
+    }
+    
+    .section1 > .boxabout1 > h1 {
+        color: #fff;
+        font-size: 15px;
+        font-family: 'Nova Square', sans-serif;
+    }
+    
+    .section1 > .boxabout1 > p {
+        margin-top: 15px;
+        color: #fff;
+        font-size: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    .section1 > .boxabout2 {
+        display: inline-block;
+        background: #ff152aae;
+        width: 25%;
+        height: 250px;
+        margin: 5px;
+        margin-top: 150px;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid #ff1515;
+        float: right;
+    }
+    
+    .section1 > .boxabout2 > h1 {
+        color: #fff;
+        font-size: 15px;
+        font-family: 'Nova Square', sans-serif;
+    }
+    
+    .section1 > .boxabout2 > p {
+        margin-top: 15px;
+        color: #fff;
+        font-size: 5px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    
+    
+    
+    
+}

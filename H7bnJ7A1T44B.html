@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/55100b01de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="galery.css">
+    <link rel="icon" href="https://telegra.ph/file/0d1d26b3baf1a28d12b05.png" type="image/x-icon">
+    <title></title>
+</head>
+<body>
+    <header class="headerdesktop">
+        <div class="menuname">
+            <h1>Kelas VII B</h1>
+        </div>
+        <div class="menubutton1">
+            <button onclick="window.location.href='home.html'"><i class="fa-solid fa-home"></i> Home</button>
+            <button onclick="window.location.href='#about'"><i class="fa-solid fa-question"></i> About</button>
+            <button onclick="window.location.href='content.html'"><i class="fa-solid fa-note-sticky"></i> Content</button>
+            <button><i class="fa-regular fa-image"></i> Galery</button>
+            <div class="menubutton2">
+                <button><i class="fa-brands fa-tiktok"></i></button>
+                <button><i class="fa-brands fa-instagram"></i></button>
+                <button><i class="fa-brands fa-whatsapp"></i></button>
+           </div>
+        </div>
+    </header>
+    <header class="headermobile">
+        <h1>Galery</h1>
+        <button><i class="fa-solid fa-bars"></i></button>
+        <div class="sidebarmenu">
+            <h1>VII B</h1>
+            <div class="buttonmenusidebar">
+                <button onclick="window.location.href='home.html'"><i class="fa-solid fa-home"></i> Home</button>
+                <button onclick="window.location.href='#about'"><i class="fa-solid fa-question"></i> About</button>
+                <button onclick="window.location.href='content.html'"><i class="fa-solid fa-note-sticky"></i> Content</button>
+                <button><i class="fa-regular fa-image"></i> Galery</button>
+            </div>
+        </div>
+    </header>
+    
+    <p>Peringatan Keras!</p>
+    <p>Dilarang memfoto/mengaib foto-foto disini</p>
+    
+    <div class="galerymenu">
+        <div class="galeryisi">
+            <img src="https://telegra.ph/file/635002dc74aa113382bbf.jpg" alt="Galeryisi">
+            <p>Foto bareng (FotBar)</p>
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+        
+        document.addEventListener('keydown', function (e) {
+            // Deteksi ketika pengguna menekan tombol Print Screen
+            if (e.key === 'PrintScreen' || e.key === 'PrtScn' || e.keyCode === 44) {
+                alert('Tidak diizinkan untuk mengambil tangkapan layar.');
+                e.preventDefault();
+            }
+        });
+
+        document.addEventListener('contextmenu', function (e) {
+            // Deteksi ketika pengguna mencoba klik kanan
+            alert('Tidak diizinkan untuk menggunakan klik kanan.');
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>

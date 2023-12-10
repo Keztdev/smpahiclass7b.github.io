@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/55100b01de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylepw.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://songsofsyx.com/wiki/images/9/9e/Lock_icon.png" type="image/x-icon">
+    <title>Lock V1</title>
+</head>
+<body>
+    
+    <style>
+        #pwloginv2, #pwloginunlock {
+            display: none;
+        }
+    </style>
+    
+    <header class="headerdesktop">
+        <div class="menuname">
+            <h1>Kelas VII B</h1>
+        </div>
+        <div class="menubutton1">
+            <button onclick="window.location.href='home.html'"><i class="fa-solid fa-home"></i> Home</button>
+            <button onclick="window.location.href='home.html'"><i class="fa-solid fa-question"></i> About</button>
+            <button><i class="fa-solid fa-note-sticky"></i> Content</button>
+            <button><i class="fa-regular fa-image"></i> Galery</button>
+            <div class="menubutton2">
+                <button><i class="fa-brands fa-tiktok"></i></button>
+                <button><i class="fa-brands fa-instagram"></i></button>
+                <button><i class="fa-brands fa-whatsapp"></i></button>
+           </div>
+        </div>
+    </header>
+    <header class="headermobile">
+        <h1>Buka Kunci Fase 1</h1>
+        <button><i class="fa-solid fa-bars"></i></button>
+        <div class="sidebarmenu">
+            <h1>VII B</h1>
+            <div class="buttonmenusidebar">
+                <button onclick="window.location.href='home.html'"><i class="fa-solid fa-home"></i> Home</button>
+                <button onclick="window.location.href='home.html'"><i class="fa-solid fa-question"></i> About</button>
+                <button><i class="fa-solid fa-note-sticky"></i> Content</button>
+                <button><i class="fa-regular fa-image"></i> Galery</button>
+            </div>
+        </div>
+    </header>
+    <h1 id="h1peringatan">Harap isi password dibawah untuk ke halaman galery</h1>
+    <br>
+    <div id="pwloginv1">
+        <form id="unlockForm" onsubmit="return checkPassword()">
+            <input class="password" type="text" id="password" required>
+            <input class="submitpas" type="submit" value="Buka Kunci">
+        </form>
+    </div>
+
+    <div id="pwloginv2">
+        <form id="nextForm" onsubmit="return checkNextPassword()">
+            <input class="password" type="text" id="nextPassword" required>
+            <input class="submitpas" type="submit" value="Selanjutnya">
+        </form>
+    </div>
+
+    <div id="pwloginunlock">
+        <a href="key.html">.</a>
+        <p>Lanjut Ke Halaman Berikutnya Dengan Klik Tombol di Bawah Ini</p>
+        <button class="buttonlanjut" onclick="window.close();">Pergi</button>
+        <button class="buttonlanjut" onclick="window.close();">kembali</button>
+    </div>
+    
+    
+    <script>
+        
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            var dayOfWeek = new Date().toLocaleDateString('en-US', { weekday: 'long' });
+
+            if (dayOfWeek === "Monday" && password === "Gah9n") {
+                document.getElementById("pwloginv1").style.display = "none";
+                document.getElementById("pwloginv2").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Tuesday" && password === "718") {
+                document.getElementById("pwloginv1").style.display = "none";
+                document.getElementById("pwloginv2").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Wednesday" && password === "1162") {
+                document.getElementById("pwloginv1").style.display = "none";
+                document.getElementById("pwloginv2").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Thursday" && password === "2631") {
+                document.getElementById("pwloginv1").style.display = "none";
+                document.getElementById("pwloginv2").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Friday" && password === "Friday81") {
+                document.getElementById("pwloginv1").style.display = "none";
+                document.getElementById("pwloginv2").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Saturday" && password === "16") {
+                document.getElementById("pwloginv1").style.display = "none";
+                document.getElementById("pwloginv2").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Sunday" && password === "8881") {
+                document.getElementById("pwloginv1").style.display = "none";
+                document.getElementById("pwloginv2").style.display = "block";
+                return false;
+            } else {
+                alert("Sandi salah. Coba lagi.");
+                return false;
+            }
+        }
+        
+        
+        
+        function checkNextPassword() {
+            var nextPassword = document.getElementById("nextPassword").value;
+
+            var dayOfWeek = new Date().toLocaleDateString('en-US', { weekday: 'long' });
+
+            if (dayOfWeek === "Monday" && nextPassword === "seninpw7b") {
+                document.getElementById("pwloginv2").style.display = "none";
+                document.getElementById("h1peringatan").style.display = "none";
+                document.getElementById("pwloginunlock").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Tuesday" && nextPassword === "selasapwweb") {
+                document.getElementById("pwloginv2").style.display = "none";
+                document.getElementById("h1peringatan").style.display = "none";
+                document.getElementById("pwloginunlock").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Wednesday" && nextPassword === "7bahiweb") {
+                document.getElementById("pwloginv2").style.display = "none";
+                document.getElementById("h1peringatan").style.display = "none";
+                document.getElementById("pwloginunlock").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Thursday" && nextPassword === "kelas7bahi8") {
+                document.getElementById("pwloginv2").style.display = "none";
+                document.getElementById("h1peringatan").style.display = "none";
+                document.getElementById("pwloginunlock").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Friday" && nextPassword === "pramukaahi7b") {
+                document.getElementById("pwloginv2").style.display = "none";
+                document.getElementById("h1peringatan").style.display = "none";
+                document.getElementById("pwloginunlock").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Saturday" && nextPassword === "sabtupw7b") {
+                document.getElementById("pwloginv2").style.display = "none";
+                document.getElementById("h1peringatan").style.display = "none";
+                document.getElementById("pwloginunlock").style.display = "block";
+                return false;
+            } else if (dayOfWeek === "Sunday" && nextPassword === "7bwebpwsaturday") {
+                document.getElementById("pwloginv2").style.display = "none";
+                document.getElementById("h1peringatan").style.display = "none";
+                document.getElementById("pwloginunlock").style.display = "block";
+                return false;
+            } else {
+                alert("Sandi salah. Coba lagi.");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
